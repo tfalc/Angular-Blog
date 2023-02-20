@@ -1,1 +1,42 @@
-<p>feed works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card border-0" style="width: 18rem;">
+        <img src="https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313__340.jpg"
+          class="card-img-top rounded-circle w-90" alt="kids cheering in front of a computer">
+        <div class="card-body">
+          <h5 class="card-title">Pixabay image</h5>
+          <p class="card-text">This is a free image from Pixabay</p>
+          <a href="https://pixabay.com/pt/images/search/technology/?manual_search=1" target="_blank"
+            class="btn btn-primary d-flex justify-content-center">Pixabay</a>
+
+          <hr class="mt-4 mb-4">
+          <h6 class="mb-3 font-monospace text-center">Pesquisar por título</h6>
+          <input type="text" class="form-control mb-3 w-100">
+          <button class="btn btn-outline-primary w-100">Pesquisar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div>
+        <h3 class="text-center mb-4 mt-2 font-monospace">Digite abaixo os seus comentários:</h3>
+        <div class="form-group">
+          <label for="titulo" class="font-monospace">Título</label>
+          <input type="text" name="titulo" id="titulo" class="form-control" placeholder="Digite o título da postagem">
+        </div>
+        <div class="form-group">
+          <label for="texto" class="font-monospace">Texto</label>
+          <textarea type="text" name="texto" id="texto" cols="30" rows="4" class="form-control mb-2"
+            placeholder="Digite o texto da postagem"></textarea>
+        </div>
+        <div class="d-flex justify-content-end">
+          <button type="button" class="btn btn-outline-info w-25">Publicar</button>
+        </div>
+
+        <hr class="mt-5 mb-5">
+
+        <h3 class="text-center mb-5 font-monospace">Comentários publicados</h3>
+      </div>
+    </div>
+  </div>
+</div>
